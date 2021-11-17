@@ -1,0 +1,49 @@
+table{
+    border: 1px solid rgb(248, 247, 247);
+    margin: 0 auto;
+    width: 28%;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-family:monospace;
+    border-spacing:3px;
+    
+}
+
+table thead{
+    background: pink;
+}
+
+table tr td{
+    font-size: 20;
+}
+
+.table-title{
+    text-align: center;
+}
+.understood{
+    background: rgb(161, 243, 161);
+}
+.half-understood{
+    background: rgb(223, 180, 101);
+}
+.not-understood{
+    background: rgb(226, 85, 85);
+}
+.without-color {
+    background: none;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    height: 45px;
+    font-size: large;
+    border: 5px solid pink;
+    background:white;
+    box-shadow:none;
+    font-family:monospace;
+    font-weight: bold;
+}
