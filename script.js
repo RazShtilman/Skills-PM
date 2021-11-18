@@ -1,6 +1,6 @@
 function noColor(){
-    const elements = document.getElementsByTagName('tr');
+    const elements = document.getElementsByName("understood");
     for (const element of elements) {
-        element.className = "without-color";
+        element.classList.toggle('understood');
     }
 }

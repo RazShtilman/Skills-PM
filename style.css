@@ -22,17 +22,9 @@ table tr td{
     text-align: center;
 }
 .understood{
-    background: rgb(161, 243, 161);
+    background: rgb(145, 243, 202);
 }
-.half-understood{
-    background: rgb(223, 180, 101);
-}
-.not-understood{
-    background: rgb(226, 85, 85);
-}
-.without-color {
-    background: none;
-}
+
 .btn-container {
     display: flex;
     justify-content: center;
